@@ -16,3 +16,11 @@
   source environment-name/bin/activate
   
   Install Dependencies
+  
+  pip install django djangorestframework django-oauth-toolkit
+  
+### Step 2 - Setting up our Django project
+  
+  To start a django project first we need to be in the virtual environment.
+  
+  python -m django startproject api
